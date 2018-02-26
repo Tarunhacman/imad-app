@@ -22,11 +22,11 @@ var title=data.title;
 var heading=data.heading;
 var content=data.content;
 var date=data.date;
-var htmltemplate= `
+var htmlTemplate= `
 <html>
     <head>
         <title>
-           $(title)
+            ${title}
         </title>
                 <link href="/ui/style.css" rel="stylesheet" />
 
@@ -40,12 +40,12 @@ var htmltemplate= `
             <a href='/'>Home</a>
         </div>
         <hr/>
-            $(heading)
+            ${heading}
         <div>
-        $(date)    
+           ${date}    
         </div>
         <div>
-            $(content)
+            ${content}
         </div>
         </div>
 </body>
